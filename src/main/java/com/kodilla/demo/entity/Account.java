@@ -1,4 +1,4 @@
-package com.kodilla.demo;
+package com.kodilla.demo.entity;
 
 
 import java.math.BigDecimal;

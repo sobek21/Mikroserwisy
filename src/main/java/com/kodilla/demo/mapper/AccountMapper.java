@@ -1,5 +1,7 @@
-package com.kodilla.demo;
+package com.kodilla.demo.mapper;
 
+import com.kodilla.demo.dto.AccountDto;
+import com.kodilla.demo.entity.Account;
 import java.util.List;
 import org.mapstruct.Mapper;
 

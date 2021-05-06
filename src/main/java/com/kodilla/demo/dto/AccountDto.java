@@ -1,4 +1,4 @@
-package com.kodilla.demo;
+package com.kodilla.demo.dto;
 
 import java.math.BigDecimal;
 import lombok.AllArgsConstructor;

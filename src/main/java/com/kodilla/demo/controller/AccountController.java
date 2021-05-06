@@ -1,5 +1,9 @@
-package com.kodilla.demo;
+package com.kodilla.demo.controller;
 
+import com.kodilla.demo.dto.AccountDto;
+import com.kodilla.demo.mapper.AccountMapper;
+import com.kodilla.demo.entity.Account;
+import com.kodilla.demo.repository.AccountRepository;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
