@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: accounts
+  profiles:
+    active: production
+  datasource:
+    url: ${accounts.datasource.url}
+    username: ${accounts.datasource.username}
+    password: ${accounts.datasource.password}
+    ddl-auto: ${accounts.datasource.ddl-auto}
