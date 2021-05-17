@@ -24,6 +24,7 @@ dependencies {
     implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.24'
     implementation 'org.springframework.cloud:spring-cloud-starter'
     implementation 'org.springframework.cloud:spring-cloud-starter-config'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
     annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
 
 
